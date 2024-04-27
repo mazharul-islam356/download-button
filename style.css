@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    min-width: 100vh;
+}
+button{
+    position: relative;
+    width: 170px;
+    height: 50px;
+    background: #6732e4;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, .2);
+    cursor: pointer;
+    transition: .7s ease-in-out;
+}
+button.active{
+    font-size: 0;
+    width: 50px;
+    background: #ededed;
+}
+
+button i {
+    margin-right: 7px;
+}
